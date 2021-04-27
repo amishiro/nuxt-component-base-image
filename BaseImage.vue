@@ -57,6 +57,7 @@ export default {
     src: {
       type: String,
       default: undefined,
+      require: true,
     },
 
     // alt
