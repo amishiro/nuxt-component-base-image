@@ -32,11 +32,7 @@
     />
 
     <!-- キャプション -->
-    <figcaption
-      v-if="caption"
-      class="base-image__caption"
-      :class="[addClassType]"
-    >
+    <figcaption v-if="caption" class="base-image__caption">
       <!-- eslint-disable-next-line vue/no-v-html -->
       <span v-html="caption" />
     </figcaption>
